@@ -1,0 +1,298 @@
+<main class="main home-page skeleton-body">
+    <!-- Main Slider starts -->
+    
+    <div class="intro-slider-container">
+        <owl-carousel carouselClasses="owl-simple owl-light owl-nav-inside slider-container-1" [options]="introSlider">
+
+            <div class="intro-slide intro-slide1"
+                style="background-image: url(assets/images/home/slides/slide-1.jpg); background-color: #edf1f0;">
+                <div class="container intro-content" contentAnim aniName="fadeInUpShorter">
+                    <h3 class="intro-subtitle text_third">Arrange Your Exterior </h3>
+                    <h1 class="intro-title text-secondary-dark font-weight-normal">Roof Frame /<br> Maintenance</h1>
+
+                    <a routerLink="" class="btn btn-outline-dark">
+                        <span>Contact Us</span>
+                        <i class="icon-long-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="intro-slide intro-slide1"
+                style="background-image: url(assets/images/home/slides/slide-2.jpg); background-color: #edf1f0;">
+                <div class="container intro-content" contentAnim aniName="fadeInUpShorter">
+                    <h3 class="intro-subtitle text-primary">Brightness & Lighting</h3>
+                    <h1 class="intro-title title_clr font-weight-normal">Find Comfort<br>That Suits You.</h1>
+
+                    <a routerLink="" class="btn btn-outline-dark">
+                        <span>Contact Us</span>
+                        <i class="icon-long-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="intro-slide intro-slide1"
+                style="background-image: url(assets/images/home/slides/slide-3.png); background-color: #edf1f0;">
+                <div class="container intro-content" contentAnim aniName="fadeInUpShorter">
+                    <h3 class="intro-subtitle title_clr1">Garden Planning</h3>
+                    <h1 class="intro-title text-secondary-dark font-weight-normal">Synthetic grass / <br> Landscaping
+                    </h1>
+
+                    <a routerLink="" class="btn btn-outline-dark">
+                        <span>Contact Us</span>
+                        <i class="icon-long-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+
+        </owl-carousel>
+    </div>
+    <!-- Main slider ends -->
+
+    <div class="mb-3 mb-lg-5"></div>
+
+    <!-- How to find the right craftsman? starts -->
+    <div class="banner-group">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-5" contentAnim aniName="fadeInRightShorter">
+                    <div class="banner banner-large">
+                        <a routerLink="">
+                            <img src="assets/images/home/banners/banner-1.png" alt="Banner" width="470" height="510"
+                                style="background-color: #fcf8e7;">
+                        </a>
+                        <div class="banner-content banner-content-top">
+                            <h3 class="banner-title text-secondary-dark">How to find the right <br>craftsman?</h3> <br>
+                            <div class="banner-text text-secondary-dark font-weight-normal">Looking for a job?</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3" contentAnim>
+                    <div class="banner">
+                        <a routerLink="">
+                            <img src="assets/images/home/banners/banner-2.png" alt="Banner" width="290" height="510"
+                                style="background-color: #748787;">
+                        </a>
+                        <div class="banner-content banner-content-top">
+                            <div class="banner-text text-white font-weight-normal">Describe your project and the work to
+                                be carried out.</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-12 col-lg-4" contentAnim aniName="fadeInLeftShorter">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-6">
+                            <div class="banner banner-sm">
+                                <a routerLink="">
+                                    <img src="assets/images/home/banners/banner-3.png" alt="Banner" width="370"
+                                        height="245" style="background-color: #ebf2df;">
+                                </a>
+                                <div class="banner-content">
+                                    <div class="banner-text font-weight-normal text-secondary-dark">Receive quotes from
+                                        our partner companies.</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 col-md-6">
+                            <div class="banner banner-center">
+                                <a routerLink="">
+                                    <img src="assets/images/home/banners/banner-4.png" alt="Banner" width="370"
+                                        height="245" style="background-color: #f0f5f8;">
+                                </a>
+                                <div class="banner-content pt-0 company">
+                                    <div class="banner-text font-weight-normal text-secondary-dark">Choose the company
+                                        that suits you best. </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- How to find the right craftsman? ends -->
+
+    <hr class="mb-4" />
+
+    <!-- Our Services starts -->
+    <div class="page-content">
+        <div  class="container-fluid" style="width: 95%;">
+            <h2 class="title text-center mb-3">Our Services</h2>
+
+            <owl-carousel carouselClasses="owl-simple" data="bannerSlider" [options]='sliderOption'>
+
+                <div class="banner banner-cat">
+                    <a routerLink="">
+                        <molla-image src="assets/images/home/services/maintenance.jpg" alt="Banner" width="270"
+                            height="300" class="services_img"></molla-image>
+                    </a>
+                    <div class="banner-content banner-content-static text-center">
+                        <h3 class="banner-title services">Maintenance & Cleaning / Maid</h3>
+                        <h4 class="banner-subtitle">8 Services</h4>
+                        <a routerLink="" class="banner-link">View More</a>
+                    </div>
+                </div>
+
+                <div class="banner banner-cat">
+                    <a routerLink="">
+                        <molla-image src="assets/images/home/services/gardening.jpg" alt="Banner" width="270"
+                            height="300" class="services_img"></molla-image>
+                    </a>
+                    <div class="banner-content banner-content-static text-center">
+                        <h3 class="banner-title services">Gardening / Landscaping</h3>
+                        <h4 class="banner-subtitle">11 Services</h4>
+                        <a routerLink="" class="banner-link">View More</a>
+                    </div>
+                </div>
+
+                <div class="banner banner-cat">
+                    <a routerLink="">
+                        <molla-image src="assets/images/home/services/electricity.avif" alt="Banner" width="270"
+                            height="300" class="services_img"></molla-image>
+                    </a>
+                    <div class="banner-content banner-content-static text-center">
+                        <h3 class="banner-title services">Electricity / Wiring</h3>
+                        <h4 class="banner-subtitle">8 Services</h4>
+                        <a routerLink="" class="banner-link">View More</a>
+                    </div>
+                </div>
+
+                <div class="banner banner-cat">
+                    <a routerLink="">
+                        <molla-image src="assets/images/home/services/paint.jpg" alt="Banner" width="270"
+                            height="300" class="services_img"></molla-image>
+                    </a>
+                    <div class="banner-content banner-content-static text-center">
+                        <h3 class="banner-title services">Paint / Tapestry / False Ceiling / Partition etc.</h3>
+                        <h4 class="banner-subtitle">10 Services</h4>
+                        <a routerLink="" class="banner-link">View More</a>
+                    </div>
+                </div>
+
+                <div class="banner banner-cat">
+                    <a routerLink="">
+                        <molla-image src="assets/images/home/services/solar.jpg" alt="Banner" width="270"
+                            height="300" class="services_img"></molla-image>
+                    </a>
+                    <div class="banner-content banner-content-static text-center">
+                        <h3 class="banner-title services">Heat Pump / Air Conditioning / Gas and Pellet Heating / VMC </h3>
+                        <h4 class="banner-subtitle">13 Services</h4>
+                        <a routerLink="" class="banner-link">View More</a>
+                    </div>
+                </div>
+
+                <div class="banner banner-cat">
+                    <a routerLink="">
+                        <molla-image src="assets/images/home/services/window.jpg" alt="Banner" width="270"
+                            height="300" class="services_img"></molla-image>
+                    </a>
+                    <div class="banner-content banner-content-static text-center">
+                        <h3 class="banner-title services">Window / Door / Shutter (Exterior Joinery) </h3>
+                        <h4 class="banner-subtitle">13 Services</h4>
+                        <a routerLink="" class="banner-link">View More</a>
+                    </div>
+                </div>
+
+                <div class="banner banner-cat">
+                    <a routerLink="">
+                        <molla-image src="assets/images/home/services/bathroom.jpg" alt="Banner" width="270"
+                            height="300" class="services_img"></molla-image>
+                    </a>
+                    <div class="banner-content banner-content-static text-center">
+                        <h3 class="banner-title services">Bathroom / Shower / Sanitary / Wellness </h3>
+                        <h4 class="banner-subtitle">7 Services</h4>
+                        <a routerLink="" class="banner-link">View More</a>
+                    </div>
+                </div>
+
+                <div class="banner banner-cat">
+                    <a routerLink="">
+                        <molla-image src="assets/images/home/services/roof.avif" alt="Banner" width="270"
+                            height="300" class="services_img"></molla-image>
+                    </a>
+                    <div class="banner-content banner-content-static text-center">
+                        <h3 class="banner-title services">Roof </h3>
+                        <h4 class="banner-subtitle">10 Services</h4>
+                        <a routerLink="" class="banner-link">View More</a>
+                    </div>
+                </div>
+
+            </owl-carousel>
+           
+        </div>
+
+    </div>
+    <!-- Our Services ends -->
+
+    <!-- Counters starts -->
+    <div class="bg-image pt-7 pb-5 pt-md-12 pb-md-9" style="background-image: url(assets/images/backgrounds/bg-4.jpg)">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-6 col-md-3">
+                    <div class="count-container text-center">
+                        <h3 class="text-white"> Trust MyOffer.lu to carry out all your work. </h3>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-3" *ngFor="let counter of counters;">
+                    <div class="count-container text-center">
+                        <div class="count-wrapper text-white">
+                            <molla-count-to [from]="0" [to]="counter.limit" [speed]="3000" [interval]="50">0
+                            </molla-count-to>
+                            {{ counter.unit }}
+                        </div>
+                        <h3 class="count-title text-white">{{ counter.text }}</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Counters ends -->
+
+    <div class="cta cta-separator bg-image" style="background-position: center right;"
+        lazyLoad="assets/images/backgrounds/cta/bg-6.jpg">
+        <br> &#160;  <br>
+        <h2 class="title text-center">Looking for a job? Or You recruit?</h2>
+        <div class="row">
+            <div class="col-md-2 col-lg-2 col-xl-2"></div>
+            <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                <div class="cta-wrapper cta-text text-center">
+                    <h3 class="cta-title text-secondary">Candidate</h3>
+                    <p class="cta-desc">Want to find a job? Then Select the areas of activity in which you wish to work.</p>
+                    <img src="assets/images/home/banners/candidate.png" alt="Avatar" class="job_img">
+                    <a href="javascript:;" class="btn btn-primary btn-rounded"><span>I Postulate</span><i
+                            class="icon-long-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                <div class="cta-wrapper text-center">
+                    <h3 class="cta-title text-secondary">Business</h3>
+                    <p class="cta-desc">Are you looking for construction sites? Receive targeted construction site opportunities based on your activity and area of intervention.</p>
+                    <img src="assets/images/home/banners/business.jpg" alt="Avatar" class="job_img">
+                    <a href="javascript:;" class="btn btn-primary btn-rounded"><span>I Hire</span><i
+                        class="icon-long-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="col-md-2 col-lg-2 col-xl-2"></div>
+        </div>
+    </div>
+
+
+
+    <div class="footer-newsletter bg-image" style="background-image: url(assets/images/home/banners/3.jpg)">
+        <div class="container">
+            <div class="heading text-center" contentAnim aniName="blurIn">
+                <h3 class="title">Get The Free Quotes</h3>
+                <p class="title-desc">Describe your work as best as possible in order to <span>receive precise
+                        quotes</span></p>
+                <br>
+                <button class="btn btn-white" type="submit" id="newsletter-btn"><span>Request Quotes</span><i
+                        class="icon-long-arrow-right"></i></button>
+            </div>
+        </div>
+    </div>
+
+</main>

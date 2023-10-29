@@ -1,0 +1,152 @@
+<div class="main">
+    <div class="mb-3 mb-lg-5"></div>
+    <div class="container-fluid">
+        <div class="page-header page-header-big text-center" style="background-image: url('assets/images/service.jpg')">
+            <!-- <h1 class="page-title text-white">Contact us<span class="text-white">keep in touch with us</span></h1> -->
+        </div>
+    </div>
+    <!-- <molla-page-header title="Services" subtitle="MyOffer"></molla-page-header> -->
+    <div class="mb-3 mb-lg-5"></div>
+
+    <div class="page-content">
+        <div class="container">
+            <div class="product-details-tab">
+                <ul class="nav nav-pills justify-content-center" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="product-desc-link" data-toggle="tab" href="#product-desc-tab"
+                            role="tab" aria-controls="product-desc-tab" aria-selected="true">Interior</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="product-info-link" data-toggle="tab" href="#product-info-tab" role="tab"
+                            aria-controls="product-info-tab" aria-selected="false">Exterior</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="product-shipping-link" data-toggle="tab" href="#product-shipping-tab"
+                            role="tab" aria-controls="product-shipping-tab" aria-selected="false">Build or Renovate</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="product-review-link" data-toggle="tab" href="#product-review-tab"
+                            role="tab" aria-controls="product-review-tab" aria-selected="false">Other Work</a>
+                    </li>
+                </ul>
+                <div class="tab-content">
+                    <div class="tab-pane fade show active" id="product-desc-tab" role="tabpanel"
+                        aria-labelledby="product-desc-link">
+                        <div class="product-desc-content">
+                            <h2>Arrange Your Interior</h2>
+                            <br>
+                            <div class="row justify-content-center">
+                                <div class="col-md-6 col-lg-6 col-xl-6" *ngFor="let image of imagevalue1;">
+                                    <div class="banner banner-cat" id="{{image.id}}">
+                                        <a routerLink="">
+                                            <molla-image src="{{image.img}}" alt="Banner" width="370"
+                                                height="250"></molla-image>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <h3 class="banner-title">{{image.name}} - {{image.count}}+ Services</h3>
+                                        <div class="heading-right">
+                                            <a class="text-primary">Click here to View More <i
+                                                    class="icon-long-arrow-right"></i></a>
+                                        </div>
+                                        <br> &#160;<br>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- End .product-desc-content -->
+                    </div><!-- .End .tab-pane -->
+
+                    <div class="tab-pane fade" id="product-info-tab" role="tabpanel"
+                        aria-labelledby="product-info-link">
+                        <div class="product-desc-content">
+                            <h2>Arrange Your Exterior</h2>
+                            <br>
+                            <div class="row justify-content-center">
+                                <div class="col-md-6 col-lg-6 col-xl-6" *ngFor="let image of imagevalue2;">
+                                    <div class="banner banner-cat">
+                                        <a routerLink="">
+                                            <molla-image src="{{image.img}}" alt="Banner" width="370"
+                                                height="250"></molla-image>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <h3 class="banner-title">{{image.name}} - {{image.count}}+ Services</h3>
+                                        <div class="heading-right">
+                                            <a class="text-primary">Click here to View More <i
+                                                    class="icon-long-arrow-right"></i></a>
+                                        </div>
+                                        <br> &#160;<br>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- End .product-desc-content -->
+                    </div><!-- .End .tab-pane -->
+                    <div class="tab-pane fade" id="product-shipping-tab" role="tabpanel"
+                        aria-labelledby="product-shipping-link">
+                        <div class="product-desc-content">
+                            <h2>Build Or Renovate</h2>
+                            <br>
+                            <div class="row justify-content-center">
+                                <div class="col-md-6 col-lg-6 col-xl-6" *ngFor="let image of imagevalue3;">
+                                    <div class="banner banner-cat">
+                                        <a routerLink="">
+                                            <molla-image src="{{image.img}}" alt="Banner" width="370"
+                                                height="250"></molla-image>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <h3 class="banner-title">{{image.name}} - {{image.count}}+ Services</h3>
+                                        <div class="heading-right">
+                                            <a class="text-primary">Click here to View More <i
+                                                    class="icon-long-arrow-right"></i></a>
+                                        </div>
+                                        <br> &#160;<br>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- End .product-desc-content -->
+                    </div><!-- .End .tab-pane -->
+                    <div class="tab-pane fade" id="product-review-tab" role="tabpanel"
+                        aria-labelledby="product-review-link">
+                        <div class="product-desc-content">
+                            <h2> Other Work </h2>
+                            <br>
+                            <div class="row justify-content-center">
+                                <div class="col-md-6 col-lg-6 col-xl-6" *ngFor="let image of imagevalue4;">
+                                    <div class="banner banner-cat">
+                                        <a routerLink="">
+                                            <molla-image src="{{image.img}}" alt="Banner" width="370"
+                                                height="250"></molla-image>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <h3 class="banner-title">{{image.name}} - {{image.count}}+ Services</h3>
+                                        <div class="heading-right">
+                                            <a class="text-primary">Click here to View More <i
+                                                    class="icon-long-arrow-right"></i></a>
+                                        </div>
+                                        <br> &#160;<br>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- End .reviews -->
+                    </div><!-- .End .tab-pane -->
+                </div><!-- End .tab-content -->
+            </div><!-- End .product-details-tab -->
+        </div>
+    </div>
+
+    <div class="footer-newsletter bg-image" style="background-image: url(assets/images/home/banners/3.jpg)">
+        <div class="container">
+            <div class="heading text-center" contentAnim aniName="blurIn">
+                <h3 class="title">Get The Free Quotes</h3>
+                <p class="title-desc">Describe your work as best as possible in order to <span>receive precise
+                        quotes</span></p>
+                <br>
+                <button class="btn btn-white" type="submit" id="newsletter-btn"><span>Request Quotes</span><i
+                        class="icon-long-arrow-right"></i></button>
+            </div>
+        </div>
+    </div>
+
+</div>
